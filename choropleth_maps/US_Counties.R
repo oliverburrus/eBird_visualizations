@@ -41,8 +41,8 @@ p <- ggplot() +
   # Adding labels
   labs(
     title = "Bird Species by County",
-    subtitle = "Number of Bird Species by County",
-    caption = "Data: eBird & U.S. Census Bureau   "
+    subtitle = "Number of Bird Species Observed on eBird by US County",
+    caption = "Data: eBird & U.S. Census Bureau | Created by Oliver Burrus | https://tinyurl.com/2bskxuzf   "
   ) +
   # Adding the final touches
   theme(
@@ -52,8 +52,8 @@ p <- ggplot() +
     legend.background = element_rect(fill = "#d1cec5", color = NA),
     
     plot.title = element_text(size= 22, hjust=0.03, color = "#4e4d47", margin = margin(b = -0.1, t = 0.4, l = 2, unit = "cm")),
-    plot.subtitle = element_text(size= 12, hjust=0.03, color = "#4e4d47", margin = margin(b = -0.1, t = 0.43, l = 2, unit = "cm")),
-    plot.caption = element_text( size=12, color = "#4e4d47", margin = margin(b = 0.3, r=-99, unit = "cm") ),
+    plot.subtitle = element_text(size= 12, hjust=0.04, color = "#4e4d47", margin = margin(b = -0.1, t = 0.43, l = 2, unit = "cm")),
+    plot.caption = element_text(size=10, color = "#4e4d47", margin = margin(b = 0.3, r=-99, unit = "cm") ),
     
     legend.position = c(0.8, 0.9)
   ) +
