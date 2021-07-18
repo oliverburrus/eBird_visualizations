@@ -9,14 +9,14 @@ library(scico) #Plotting
 eBird_API_Key <- "Your Key Here" #Key can be obtained at https://ebird.org/api/keygen
 
 #Here we're going to run our first api request, this will return a list of all the US Counties in eBird.
-counties <- ebirdsubregionlist("subnational2", "US", key = "scshi43kh3r9")
+counties <- ebirdsubregionlist("subnational2", "US", key = eBird_API_Key)
 #Next, were just adding a new column in counties_sf (the county polygon tibble) to match the eBird county codes so we can merge the two later.
 counties_sf$merge <- paste("US", counties_sf$state_abbv, substr(counties_sf$county_fips, 3, 5), sep = "-")
 
 # The next line is critical, however, due to the heavy use of the eBird API, 
 # please limit the use of this loop as much as possible. You should only need to run it once.
 for(i in 1:nrow(counties)){
-  counties$Species[i] <- nrow(ebirdregionspecies(counties$code[i], key = "scshi43kh3r9"))
+  counties$Species[i] <- nrow(ebirdregionspecies(counties$code[i], key = eBird_API_Key))
 }
 
 # This next loop is due to name change of this county, we need to revise the county FIPS code.
