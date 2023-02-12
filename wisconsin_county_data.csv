@@ -1,73 +1,73 @@
-county,value
-Adams,2.5
-Ashland,5.1
-Barron,4.8
-Bayfield,6.0
-Brown,4.6
-Buffalo,3.1
-Burnett,6.2
-Calumet,3.7
-Chippewa,4.9
-Clark,4.8
-Columbia,2.6
-Crawford,4.2
-Dane,2.9
-Dodge,3.8
-Door,4.7
-Douglas,5.0
-Dunn,4.5
-Eau Claire,3.2
-Florence,5.7
-Fond du Lac,3.9
-Forest,6.1
-Grant,4.3
-Green,3.0
-Green Lake,3.6
-Iowa,2.9
-Iron,5.1
-Jackson,6.0
-Jefferson,3.1
-Juneau,3.8
-Kenosha,2.6
-Kewaunee,3.7
-La Crosse,4.2
-Lafayette,2.9
-Langlade,3.8
-Lincoln,4.7
-Manitowoc,2.5
-Marathon,5.1
-Marinette,4.8
-Marquette,6.0
-Menominee,4.6
-Milwaukee,3.1
-Monroe,6.2
-Oconto,3.7
-Oneida,4.9
-Outagamie,4.8
-Ozaukee,2.6
-Pepin,4.2
-Pierce,2.9
-Polk,3.8
-Portage,4.7
-Price,2.5
-Racine,5.1
-Richland,4.8
-Rock,6.0
-Rusk,4.6
-Sauk,3.1
-Sawyer,6.2
-Shawano,3.7
-Sheboygan,4.9
-St. Croix,4.8
-Taylor,2.6
-Trempealeau,4.2
-Vernon,2.9
-Vilas,3.8
-Walworth,4.7
-Washburn,4.3
-Washington,3.2
-Waukesha,2.5
-Waupaca,3.6
-Waushara,3.8
-Winnebago,3.1
-Wood,3.5
+county,value,fips_code
+Adams,2.5,55001
+Ashland,5.1,55003
+Barron,4.8,55005
+Bayfield,6.0,55007
+Brown,4.6,55009
+Buffalo,3.1,55011
+Burnett,6.2,55013
+Calumet,3.7,55015
+Chippewa,4.9,55017
+Clark,4.8,55019
+Columbia,2.6,55021
+Crawford,4.2,55023
+Dane,2.9, 55025
+Dodge,3.8, 55027
+Door,4.7, 55029
+Douglas,5.0, 55031
+Dunn,4.5, 55033
+Eau Claire,3.2, 55035
+Florence,5.7, 55037
+Fond du Lac,3.9, 55039
+Forest,6.1, 55041
+Grant,4.3, 55043
+Green,3.0, 55045
+Green Lake,3.6, 55047
+Iowa,2.9, 55049
+Iron,5.1, 55051
+Jackson,6.0, 55053
+Jefferson,3.1, 55055
+Juneau,3.8, 55057
+Kenosha,2.6, 55059
+Kewaunee,3.7, 55061
+La Crosse,4.2, 55063
+Lafayette,2.9, 55065
+Langlade,3.8, 55067
+Lincoln,4.7, 55069
+Manitowoc,2.5, 55071
+Marathon,5.1, 55073
+Marinette,4.8, 55075
+Marquette,6.0, 55077
+Menominee,4.6, 55078
+Milwaukee,3.1, 55079
+Monroe,6.2, 55081
+Oconto,3.7, 55083
+Oneida,4.9, 55085
+Outagamie,4.8, 55087
+Ozaukee,2.6, 55089
+Pepin,4.2, 55091
+Pierce,2.9, 55093
+Polk,3.8, 55095
+Portage,4.7, 55097
+Price,2.5, 55099
+Racine,5.1, 55101
+Richland,4.8, 55103
+Rock,6.0, 55105
+Rusk,4.6, 55107
+Sauk,3.1, 55109
+Sawyer,6.2, 55111
+Shawano,3.7, 55113
+Sheboygan,4.9, 55115
+St. Croix,4.8, 55117
+Taylor,2.6, 55119
+Trempealeau,4.2, 55121
+Vernon,2.9, 55123
+Vilas,3.8, 55125
+Walworth,4.7, 55127
+Washburn,4.3, 55129
+Washington,3.2, 55131
+Waukesha,2.5, 55133
+Waupaca,3.0,55135
+Waushara,2.9,55137
+Winnebago,3.1,55139
+Wood,3.8,55141
